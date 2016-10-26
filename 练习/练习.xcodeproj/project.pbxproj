@@ -13,6 +13,7 @@
 		85A644231DC0E32700BB4767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A644211DC0E32700BB4767 /* Main.storyboard */; };
 		85A644251DC0E32700BB4767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A644241DC0E32700BB4767 /* Assets.xcassets */; };
 		85A644281DC0E32700BB4767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A644261DC0E32700BB4767 /* LaunchScreen.storyboard */; };
+		85A644311DC0E88400BB4767 /* SBchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A644301DC0E88400BB4767 /* SBchen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		85A644241DC0E32700BB4767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85A644271DC0E32700BB4767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85A644291DC0E32700BB4767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A6442F1DC0E88400BB4767 /* SBchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBchen.h; sourceTree = "<group>"; };
+		85A644301DC0E88400BB4767 /* SBchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBchen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				85A644261DC0E32700BB4767 /* LaunchScreen.storyboard */,
 				85A644291DC0E32700BB4767 /* Info.plist */,
 				85A644181DC0E32700BB4767 /* Supporting Files */,
+				85A6442F1DC0E88400BB4767 /* SBchen.h */,
+				85A644301DC0E88400BB4767 /* SBchen.m */,
 			);
 			path = "练习";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				85A644201DC0E32700BB4767 /* ViewController.m in Sources */,
 				85A6441D1DC0E32700BB4767 /* AppDelegate.m in Sources */,
+				85A644311DC0E88400BB4767 /* SBchen.m in Sources */,
 				85A6441A1DC0E32700BB4767 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +313,7 @@
 				85A6442E1DC0E32700BB4767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
